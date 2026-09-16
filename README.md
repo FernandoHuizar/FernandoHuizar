@@ -19,7 +19,6 @@ IT Support Specialist working toward Identity and Access Management. This portfo
 | [Group Policy Security Lab](https://github.com/FernandoHuizar/Group-Policy-Security-Lab) | Enterprise GPOs for password policy, account lockout, USB restriction, and audit logging. | Active Directory, Windows Server, GPO | Complete |
 | [Intune Endpoint Management Lab](https://github.com/FernandoHuizar/Intune-Endpoint-Management-Lab) | Device compliance policy and Conditional Access requiring compliant devices before app access. | Microsoft Intune, Entra ID | Complete |
 ## Certifications
-**Earned:** CompTIA Security+ · CompTIA A+
-**In Progress:** SC-300 (Microsoft Identity and Access Administrator Associate)
+**Earned:** CompTIA Security+ · SC-300 (Microsoft Identity and Access Administrator Associate)
 ## Connect
 [LinkedIn](https://www.linkedin.com/in/fernandohuizarit)
