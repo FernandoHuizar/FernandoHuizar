@@ -1,5 +1,5 @@
 ### Hi, I'm Fernando 👋
-IT Support Specialist working toward Identity and Access Management. This portfolio focuses on identity lifecycle automation, access governance, hybrid identity, and provisioning, built across Microsoft Entra ID, Okta, Active Directory, and Google Workspace.
+This portfolio focuses on identity lifecycle automation, access governance, hybrid identity, and provisioning, built across Microsoft Entra ID, Okta, Active Directory, and Google Workspace.
 ## Identity & Access Management
 | Project | Purpose | Stack | Status |
 |---|---|---|---|
