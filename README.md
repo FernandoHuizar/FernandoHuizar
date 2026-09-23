@@ -19,6 +19,6 @@ This portfolio focuses on identity lifecycle automation, access governance, hybr
 | [Group Policy Security Lab](https://github.com/FernandoHuizar/Group-Policy-Security-Lab) | Enterprise GPOs for password policy, account lockout, USB restriction, and audit logging. | Active Directory, Windows Server, GPO | Complete |
 | [Intune Endpoint Management Lab](https://github.com/FernandoHuizar/Intune-Endpoint-Management-Lab) | Device compliance policy and Conditional Access requiring compliant devices before app access. | Microsoft Intune, Entra ID | Complete |
 ## Certifications
-**Earned:** CompTIA Security+ · SC-300 (Microsoft Identity and Access Administrator Associate)
+**Earned:** CompTIA Security+ · SC-300 (Microsoft Identity and Access Administrator Associate) · Okta Certified Professional
 ## Connect
 [LinkedIn](https://www.linkedin.com/in/fernandohuizarit)
