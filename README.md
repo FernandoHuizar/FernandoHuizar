@@ -30,7 +30,7 @@
 | Okta Certified Professional | Okta | ✅ Earned |
 | Security+ | CompTIA | ✅ Earned |
 
-## Identity & Access Management
+## Identity & Access Management Projects
 
 ### Latest
 
