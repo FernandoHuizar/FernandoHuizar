@@ -16,13 +16,13 @@
 
 ---
 
-> **Portfolio note**
+> ### Portfolio note
 >
 > These are personal labs built to copy the real work of an IAM team: joiners, movers and leavers, access by role, provisioning, and checks that prove access matches HR.
 >
 > Each project starts from a business problem, runs on live tenants (Okta, Entra ID, Active Directory), and includes the code, the evidence, and a log of what broke and how I fixed it.
 
-## 🎓 Certifications
+## Certifications
 
 | Certification | Issuer | Status |
 |---|---|---|
@@ -30,16 +30,7 @@
 | Okta Certified Professional | Okta | ✅ Earned |
 | Security+ | CompTIA | ✅ Earned |
 
-## 🛠️ Skills
-
-| Area | Tools and concepts |
-|---|---|
-| **Identity & Access** | Okta · Microsoft Entra ID · Active Directory · SSO (SAML 2.0, OIDC) · MFA · SCIM · Joiner/Mover/Leaver · PIM · Access Reviews · Separation of Duties |
-| **Automation** | Python · PowerShell · Okta API · Microsoft Graph API · n8n |
-| **Endpoint & Security** | Intune · Hexnode MDM · Huntress EDR |
-| **Platforms & Service** | Microsoft 365 · Google Workspace · ServiceNow · Git |
-
-## 🔐 Identity & Access Management
+## Identity & Access Management
 
 ### Latest
 
@@ -66,6 +57,15 @@
 
 > **Focus area:** the full identity lifecycle across Okta, Active Directory and Entra ID, with HR as the source of truth and automation at each step. The screenshot labs are from earlier in my learning, and I'm replacing them one by one with full builds like Havlund.
 
-## 📫 Connect
+## Connect
 
 <a href="https://www.linkedin.com/in/fernandohuizarit"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+
+## Skills
+
+| Area | Tools and concepts |
+|---|---|
+| **Identity & Access** | Okta · Microsoft Entra ID · Active Directory · SSO (SAML 2.0, OIDC) · MFA · SCIM · Joiner/Mover/Leaver · PIM · Access Reviews · Separation of Duties |
+| **Automation** | Python · PowerShell · Okta API · Microsoft Graph API · n8n |
+| **Endpoint & Security** | Intune · Hexnode MDM · Huntress EDR |
+| **Platforms & Service** | Microsoft 365 · Google Workspace · ServiceNow · Git |
