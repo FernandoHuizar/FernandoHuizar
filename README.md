@@ -63,7 +63,7 @@
 
 ## Certifications
 
-![SC-300](https://img.shields.io/badge/SC--300_Identity_%26_Access_Administrator-0078D4?style=flat-square&logoColor=white)
+![SC-300](https://img.shields.io/badge/Microsoft_Certified:_Identity_and_Access_Administrator_Associate_(SC--300)-0078D4?style=flat-square&logoColor=white)
 ![Okta Pro](https://img.shields.io/badge/Okta_Certified_Professional-007DC1?style=flat-square&logo=okta&logoColor=white)
 ![Sec+](https://img.shields.io/badge/CompTIA_Security%2B-C8202F?style=flat-square)
 
