@@ -13,10 +13,11 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Okta-007DC1?style=for-the-badge&logo=okta&logoColor=white" alt="Okta" />
   <img src="https://img.shields.io/badge/Microsoft_Entra_ID-0078D4?style=for-the-badge&logoColor=white" alt="Microsoft Entra ID" />
-  <img src="https://img.shields.io/badge/Google_Workspace-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Google Workspace" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Active_Directory-0078D4?style=for-the-badge&logoColor=white" alt="Active Directory" />
+  <img src="https://img.shields.io/badge/ServiceNow-62D84E?style=for-the-badge&logo=servicenow&logoColor=white" alt="ServiceNow" />
   <img src="https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logoColor=white" alt="PowerShell" />
-  <img src="https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white" alt="n8n" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Google_Workspace-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Google Workspace" />
 </p>
 
 ---
