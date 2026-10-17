@@ -16,50 +16,45 @@
 
 ---
 
-> ### Portfolio note
->
-> These are personal labs built to copy the real work of an IAM team: joiners, movers and leavers, access by role, provisioning, and checks that prove access matches HR.
->
-> Each project starts from a business problem, runs on live tenants (Okta, Entra ID, Active Directory), and includes the code, the evidence, and a log of what broke and how I fixed it.
+I build personal labs that copy the real work of an IAM team: giving people the right access on day one, taking it away when they leave, and proving it matches HR. Fake people and made-up companies, real Okta, Active Directory and Entra ID.
 
 ## Certifications
 
-| Certification | Issuer | Status |
-|---|---|---|
-| SC-300: Identity and Access Administrator Associate | Microsoft | ✅ Earned |
-| Okta Certified Professional | Okta | ✅ Earned |
-| Security+ | CompTIA | ✅ Earned |
+| Certification | Issuer |
+|---|---|
+| SC-300: Identity and Access Administrator Associate | Microsoft |
+| Okta Certified Professional | Okta |
+| Security+ | CompTIA |
 
-## Identity & Access Management Projects
+## Featured project
 
-### Latest
+### [Havlund Pharma: HR-driven identity lifecycle](https://github.com/FernandoHuizar/havlund-identity-lifecycle)
 
-| Project | Proof | Purpose | Stack | Status |
-|---|---|---|---|---|
-| [Havlund Pharma: HR-driven identity lifecycle](https://github.com/FernandoHuizar/havlund-identity-lifecycle) | Code, screenshots, problem log | HR is the source of truth. Joiners, movers, leavers, contractor end dates and rehires flow from HR to Okta, Active Directory and Entra ID. A drift check compares all three with HR and flags leavers with access, separation of duties conflicts and accounts with no owner. Tested on purpose: 3 problems made by hand gave 8 findings, all caught. | Python · PowerShell · Okta API · Microsoft Graph · AD · Entra Cloud Sync | ![Complete](https://img.shields.io/badge/Complete-2ea44f) |
+**Problem:** new hires wait days for access, people who leave keep it too long, and nobody can easily show who has access to what.
 
-### Roadmap
+**What I built:** HR changes flow automatically into Okta, Active Directory and Entra ID. A second script checks all three against HR and flags anything that doesn't match.
 
-| Project | Purpose | Stack | Status |
-|---|---|---|---|
-| App onboarding at Havlund | Taking an app from request to production: SSO, SCIM provisioning by group, an MFA policy and a help desk runbook | Okta · SAML · OIDC · SCIM | ![Next](https://img.shields.io/badge/Next-dbab09) |
-| Privileged access at Havlund | Vaulting the shared admin and service accounts with check-out approval, automatic password rotation and an audit trail | Delinea Secret Server · AD | ![Queued](https://img.shields.io/badge/Queued-8b949e) |
+- 7 new hires set up with the right access in one run
+- A leaver's access removed and account turned off in about 1 second, every step logged
+- 3 problems I planted by hand gave 8 findings, all caught in both AD and Entra
 
-### Completed labs
+<a href="https://github.com/FernandoHuizar/havlund-identity-lifecycle"><img src="https://github.com/FernandoHuizar/havlund-identity-lifecycle/raw/main/screenshots/08-drift-check-all-systems.png" width="600" alt="Drift check finding a leaver with access and a separation of duties conflict"></a>
 
-| Lab | Proof | Purpose | Stack | Status |
-|---|---|---|---|---|
-| [SCIM Provisioning Lab](https://github.com/FernandoHuizar/scim-provisioning-lab) | Code, screenshots | A SCIM 2.0 server I wrote, connected to a live Okta tenant for automatic create and deactivate | Node.js · SCIM 2.0 · Okta | ![Complete](https://img.shields.io/badge/Complete-2ea44f) |
-| [Okta SSO and MFA Lab](https://github.com/FernandoHuizar/Okta-SSO-MFA-Lab) | Screenshots | SAML 2.0 and OIDC apps, sign-on policies, 5 troubleshooting cases I reproduced | Okta · SAML · OIDC · MFA | ![Complete](https://img.shields.io/badge/Complete-2ea44f) |
-| [Enterprise App Provisioning Lab](https://github.com/FernandoHuizar/Enterprise-App-Provisioning-Lab) | Screenshots | Entra provisioning to ServiceNow, and why I switched away from a broken Salesforce integration | Entra ID · ServiceNow | ![Complete](https://img.shields.io/badge/Complete-2ea44f) |
-| [PIM and Access Reviews Lab](https://github.com/FernandoHuizar/PIM-Access-Reviews-Lab) | Screenshots | Just-in-time admin roles, a 30-user access review with real removals, separation of duties | Entra ID · PIM · Access Reviews | ![Complete](https://img.shields.io/badge/Complete-2ea44f) |
-| [Hybrid Identity and AD Lab](https://github.com/FernandoHuizar/Hybrid-Identity-AD-Lab) | Screenshots | Active Directory synced to Entra with Entra Connect, group-based access structure | AD · Entra Connect · PowerShell | ![Complete](https://img.shields.io/badge/Complete-2ea44f) |
+Python · PowerShell · Okta API · Microsoft Graph · Entra Cloud Sync. Code, screenshots and a log of what broke and how I fixed it.
 
-> **Focus area:** the full identity lifecycle across Okta, Active Directory and Entra ID, with HR as the source of truth and automation at each step. The screenshot labs are from earlier in my learning, and I'm replacing them one by one with full builds like Havlund.
+## Earlier labs
 
-## Connect
+Screenshot-based labs from earlier in my learning. I'm replacing them one by one with full builds like Havlund.
 
-<a href="https://www.linkedin.com/in/fernandohuizarit"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+- [SCIM Provisioning](https://github.com/FernandoHuizar/scim-provisioning-lab): a small server I wrote so Okta can create and turn off accounts in another app. Includes code.
+- [Okta SSO and MFA](https://github.com/FernandoHuizar/Okta-SSO-MFA-Lab): single sign-on and MFA for 3 apps, plus 5 sign-in problems I reproduced and fixed.
+- [Enterprise App Provisioning](https://github.com/FernandoHuizar/Enterprise-App-Provisioning-Lab): Entra creating accounts in ServiceNow automatically.
+- [PIM and Access Reviews](https://github.com/FernandoHuizar/PIM-Access-Reviews-Lab): admin rights only when needed, and a 30-user access review with real removals.
+- [Hybrid Identity and AD](https://github.com/FernandoHuizar/Hybrid-Identity-AD-Lab): Active Directory synced to Entra ID, with access given by group.
+
+## Next
+
+App onboarding at Havlund (single sign-on, automatic accounts, MFA policy, help desk runbook), then privileged access for shared admin accounts.
 
 ## Skills
 
