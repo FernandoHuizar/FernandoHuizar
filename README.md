@@ -54,7 +54,9 @@
 | **App Onboarding at Havlund** | Taking an app from request to live with single sign-on, automatic accounts by group, an MFA policy and a help desk runbook. | Okta · SAML · OIDC · SCIM | ![Next](https://img.shields.io/badge/Next-dbab09?style=flat-square) |
 | **Privileged Access at Havlund** | Shared admin and service accounts in a vault, with check-out approval, password rotation and an audit trail. | Delinea Secret Server · AD | ![Queued](https://img.shields.io/badge/Queued-888888?style=flat-square) |
 
-> **Focus area:** the full identity lifecycle across Okta, Active Directory and Entra ID, with HR as the source of truth. The screenshot labs are from earlier in my learning, and I'm replacing them with full builds like Havlund.
+> **Focus area**
+>
+> My labs cover the full identity lifecycle across Okta, Active Directory and Entra ID, with HR as the source of truth. The screenshot labs are from earlier in my learning, and I'm replacing them with full builds like Havlund.
 
 ---
 
