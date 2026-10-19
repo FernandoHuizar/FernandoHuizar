@@ -52,12 +52,12 @@
 
 | Project | Purpose | Stack | Status |
 |---|---|---|---|
-| **App Onboarding at Havlund** | Taking an app from request to live with single sign-on, automatic accounts by group, an MFA policy and a help desk runbook. | Okta · SAML · OIDC · SCIM | ![Next](https://img.shields.io/badge/Next-dbab09?style=flat-square) |
-| **Privileged Access at Havlund** | Shared admin and service accounts in a vault, with check-out approval, password rotation and an audit trail. | Delinea Secret Server · AD | ![Queued](https://img.shields.io/badge/Queued-888888?style=flat-square) |
+| **App Access at Havlund** | Salesforce and ServiceNow connected to Okta with single sign-on and automatic accounts. People ask for access in ServiceNow, their manager approves it, and managers review their team's access every quarter. | Okta · Salesforce · ServiceNow · Python | ![Next](https://img.shields.io/badge/Next-dbab09?style=flat-square) |
+| **Privileged Access at Havlund** | Finding admin and service accounts, putting them in a vault, rotating their passwords, check-out with approval, session recording and a break-glass account. | Delinea Secret Server · Active Directory | ![Queued](https://img.shields.io/badge/Queued-888888?style=flat-square) |
 
 > **Focus area**
 >
-> My labs cover the full identity lifecycle across Okta, Active Directory and Entra ID, with HR as the source of truth. The screenshot labs are from earlier in my learning, and I'm replacing them with full builds like Havlund.
+> My labs cover the full identity lifecycle across Okta, Active Directory and Entra ID, with HR as the source of truth. The screenshot labs are from earlier in my learning. The Havlund projects are full builds at one made-up company, with code, logs and what broke.
 
 ---
 
