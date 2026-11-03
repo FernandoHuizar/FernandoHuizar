@@ -48,12 +48,12 @@
 | [**PIM & Access Reviews**](https://github.com/FernandoHuizar/PIM-Access-Reviews-Lab) | Screenshots | Admin rights only when needed, a 30-user access review that removed 8, and a separation of duties rule. | Entra ID · PIM · Access Reviews | ![Complete](https://img.shields.io/badge/Complete-2ea44f?style=flat-square) |
 | [**Hybrid Identity & AD**](https://github.com/FernandoHuizar/Hybrid-Identity-AD-Lab) | Screenshots | Active Directory synced to Entra ID, with 401 users and access given by group. | Active Directory · Entra Connect · PowerShell | ![Complete](https://img.shields.io/badge/Complete-2ea44f?style=flat-square) |
 
-### Up next
+### On hold
 
 | Project | Purpose | Stack | Status |
 |---|---|---|---|
-| **App Access at Havlund** | Salesforce and ServiceNow connected to Okta with single sign-on and automatic accounts. People ask for access in ServiceNow, their manager approves it, and managers review their team's access every quarter. | Okta · Salesforce · ServiceNow · Python | ![Next](https://img.shields.io/badge/Next-dbab09?style=flat-square) |
-| **Privileged Access at Havlund** | Finding admin and service accounts, putting them in a vault, rotating their passwords, check-out with approval, session recording and a break-glass account. | Delinea Secret Server · Active Directory | ![Queued](https://img.shields.io/badge/Queued-888888?style=flat-square) |
+| **App Access at Havlund** | Salesforce and ServiceNow connected to Okta with single sign-on and automatic accounts. People ask for access in ServiceNow, their manager approves it, and managers review their team's access every quarter. | Okta · Salesforce · ServiceNow · Python | ![On hold](https://img.shields.io/badge/On_hold-888888?style=flat-square) |
+| **Privileged Access at Havlund** | Finding admin and service accounts, putting them in a vault, rotating their passwords, check-out with approval, session recording and a break-glass account. | Delinea Secret Server · Active Directory | ![On hold](https://img.shields.io/badge/On_hold-888888?style=flat-square) |
 
 > **Focus area**
 >
