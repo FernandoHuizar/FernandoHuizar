@@ -1,7 +1,7 @@
 <h1 align="center">Fernando Huizar</h1>
 
 <p align="center">
-<em>System Administrator & IAM @ Natura Life+Science</em>
+<em>IAM Analyst @ Williams-Sonoma Inc
 </p>
 
 <p align="center">
