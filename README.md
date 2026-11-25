@@ -12,15 +12,14 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Microsoft_Entra_ID-0078D4?style=for-the-badge&logoColor=white" height="24" alt="Microsoft Entra ID" />
-  <img src="https://img.shields.io/badge/Entra_Agent_ID-0078D4?style=for-the-badge&logoColor=white" height="24" alt="Entra Agent ID" />
-  <img src="https://img.shields.io/badge/Microsoft_Foundry-5C2D91?style=for-the-badge&logoColor=white" height="24" alt="Microsoft Foundry" />
-  <img src="https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logoColor=white" height="24" alt="Azure" />
   <img src="https://img.shields.io/badge/SailPoint_IdentityIQ-0033A1?style=for-the-badge&logoColor=white" height="24" alt="SailPoint IdentityIQ" />
   <img src="https://img.shields.io/badge/Delinea-2C2C2C?style=for-the-badge&logoColor=white" height="24" alt="Delinea" />
   <img src="https://img.shields.io/badge/Active_Directory-0078D4?style=for-the-badge&logoColor=white" height="24" alt="Active Directory" />
   <img src="https://img.shields.io/badge/Okta-007DC1?style=for-the-badge&logo=okta&logoColor=white" height="24" alt="Okta" />
+  <img src="https://img.shields.io/badge/ServiceNow-62D84E?style=for-the-badge&logo=servicenow&logoColor=white" height="24" alt="ServiceNow" />
   <img src="https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logoColor=white" height="24" alt="PowerShell" />
-  <img src="https://img.shields.io/badge/Microsoft_Graph-0078D4?style=for-the-badge&logoColor=white" height="24" alt="Microsoft Graph" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" height="24" alt="Python" />
+  <img src="https://img.shields.io/badge/Google_Workspace-4285F4?style=for-the-badge&logo=google&logoColor=white" height="24" alt="Google Workspace" />
 </p>
 
 ---
@@ -37,7 +36,7 @@
 
 | Project | What it shows | Stack | Status |
 |---|---|---|---|
-| [**AI Agent Governance Lab**](https://github.com/FernandoHuizar/ai-agent-governance-lab) | 2 AI agents, each with its own Entra ID and a human owner. A script lists every agent and found one nobody owned. Risky actions wait for a risk officer to say yes, and I tested the off switch and a full offboarding. | Entra Agent ID · Microsoft Foundry · Logic Apps · PowerShell · Microsoft Graph | ![Complete](https://img.shields.io/badge/Complete-2ea44f?style=flat-square) |
+| [**AI Agent Governance Lab**](https://github.com/FernandoHuizar/ai-agent-governance-lab) | Copies how a bank would keep AI agents under control the same way it controls employees. Each agent gets its own identity, a human owner and only the access its job needs. Risky actions wait for a person to approve, and any agent can be shut off and retired cleanly. | Entra Agent ID · Microsoft Foundry · Logic Apps · PowerShell · Microsoft Graph | ![Complete](https://img.shields.io/badge/Complete-2ea44f?style=flat-square) |
 | **AI Audit and Compliance Lab** | An AI helper reviews the agents from the first lab and flags too much access, unused access and agents with no owner. A person makes every call, and the results become an audit report mapped to DORA, NIS2 and the EU AI Act. | Entra · Microsoft Foundry · PowerShell | ![Up next](https://img.shields.io/badge/Up_next-0969DA?style=flat-square) |
 
 <details>
