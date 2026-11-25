@@ -15,6 +15,8 @@
   <img src="https://img.shields.io/badge/SailPoint_IdentityIQ-0033A1?style=for-the-badge&logoColor=white" height="24" alt="SailPoint IdentityIQ" />
   <img src="https://img.shields.io/badge/Delinea-2C2C2C?style=for-the-badge&logoColor=white" height="24" alt="Delinea" />
   <img src="https://img.shields.io/badge/Active_Directory-0078D4?style=for-the-badge&logoColor=white" height="24" alt="Active Directory" />
+  <img src="https://img.shields.io/badge/Ping_Identity-B3282D?style=for-the-badge&logoColor=white" height="24" alt="Ping Identity" />
+  <img src="https://img.shields.io/badge/Microsoft_365-D83B01?style=for-the-badge&logoColor=white" height="24" alt="Microsoft 365" />
   <img src="https://img.shields.io/badge/Okta-007DC1?style=for-the-badge&logo=okta&logoColor=white" height="24" alt="Okta" />
   <img src="https://img.shields.io/badge/ServiceNow-62D84E?style=for-the-badge&logo=servicenow&logoColor=white" height="24" alt="ServiceNow" />
   <img src="https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logoColor=white" height="24" alt="PowerShell" />
@@ -60,7 +62,6 @@
 ![SC-300](https://img.shields.io/badge/Microsoft_Certified:_Identity_and_Access_Administrator_Associate_(SC--300)-0078D4?style=flat-square&logoColor=white)
 ![Okta Pro](https://img.shields.io/badge/Okta_Certified_Professional-007DC1?style=flat-square&logo=okta&logoColor=white)
 ![Sec+](https://img.shields.io/badge/CompTIA_Security%2B-C8202F?style=flat-square)
-![AWS CCP](https://img.shields.io/badge/AWS_Certified_Cloud_Practitioner-232F3E?style=flat-square)
 
 ---
 
