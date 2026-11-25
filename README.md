@@ -1,7 +1,7 @@
 <h1 align="center">Fernando Huizar</h1>
 
 <p align="center">
-<em>IAM Analyst @ Williams-Sonoma Inc
+<em>IAM Analyst @ Williams-Sonoma Inc</em>
 </p>
 
 <p align="center">
@@ -11,53 +11,50 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Okta-007DC1?style=for-the-badge&logo=okta&logoColor=white" height="24" alt="Okta" />
   <img src="https://img.shields.io/badge/Microsoft_Entra_ID-0078D4?style=for-the-badge&logoColor=white" height="24" alt="Microsoft Entra ID" />
+  <img src="https://img.shields.io/badge/Entra_Agent_ID-0078D4?style=for-the-badge&logoColor=white" height="24" alt="Entra Agent ID" />
+  <img src="https://img.shields.io/badge/Microsoft_Foundry-5C2D91?style=for-the-badge&logoColor=white" height="24" alt="Microsoft Foundry" />
+  <img src="https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logoColor=white" height="24" alt="Azure" />
+  <img src="https://img.shields.io/badge/SailPoint_IdentityIQ-0033A1?style=for-the-badge&logoColor=white" height="24" alt="SailPoint IdentityIQ" />
+  <img src="https://img.shields.io/badge/Delinea-2C2C2C?style=for-the-badge&logoColor=white" height="24" alt="Delinea" />
   <img src="https://img.shields.io/badge/Active_Directory-0078D4?style=for-the-badge&logoColor=white" height="24" alt="Active Directory" />
-  <img src="https://img.shields.io/badge/ServiceNow-62D84E?style=for-the-badge&logo=servicenow&logoColor=white" height="24" alt="ServiceNow" />
+  <img src="https://img.shields.io/badge/Okta-007DC1?style=for-the-badge&logo=okta&logoColor=white" height="24" alt="Okta" />
   <img src="https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logoColor=white" height="24" alt="PowerShell" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" height="24" alt="Python" />
-  <img src="https://img.shields.io/badge/Google_Workspace-4285F4?style=for-the-badge&logo=google&logoColor=white" height="24" alt="Google Workspace" />
+  <img src="https://img.shields.io/badge/Microsoft_Graph-0078D4?style=for-the-badge&logoColor=white" height="24" alt="Microsoft Graph" />
 </p>
 
 ---
 
-> **Portfolio note**
+> **What I'm working on**
 >
-> The projects here are personal labs built to copy the real work of an Identity and Access Management team. They focus on giving people the right access when they join, changing it when they move, and removing it when they leave.
+> Companies are giving AI agents access to their systems, but most can't say who owns each agent or what it can touch. My labs treat AI agents like any other identity. Each one gets its own ID, a human owner, only the access it needs, a person approving its risky actions and an off switch.
 >
-> Each lab runs on real Okta, Active Directory and Entra ID tenants with fake people and a made-up company. Every project includes the evidence, the code where there is some, and a log of what broke and how I fixed it.
+> The labs are set at a made-up Danish bank, so they follow bank rules like DORA, NIS2 and the EU AI Act. Everything is fake, but it runs on real Microsoft Entra and Azure.
 
 ---
 
-## Identity & Access Management
+## AI and Non-Human Identity Labs
 
-### 🆕 Latest
-
-| Project | Proof | Purpose | Stack | Status |
-|---|---|---|---|---|
-| [**Havlund Pharma: HR-Driven Identity Lifecycle**](https://github.com/FernandoHuizar/havlund-identity-lifecycle) | Code, screenshots, problem log | HR changes flow into Okta, Active Directory and Entra ID automatically. New hires get access for their job, movers lose old access first, and leavers are turned off. A drift check compares all three systems with HR. I planted 3 problems by hand and it caught all of them (8 findings across AD and Entra). | Okta API · Active Directory · Entra ID · Python · PowerShell | ![Complete](https://img.shields.io/badge/Complete-2ea44f?style=flat-square) |
-
-### Completed
-
-| Project | Proof | Purpose | Stack | Status |
-|---|---|---|---|---|
-| [**SCIM Provisioning Server**](https://github.com/FernandoHuizar/scim-provisioning-lab) | Code, screenshots | A small server I wrote so Okta can create and turn off accounts in an app automatically. | Okta · SCIM 2.0 · Node.js | ![Complete](https://img.shields.io/badge/Complete-2ea44f?style=flat-square) |
-| [**Okta SSO & MFA**](https://github.com/FernandoHuizar/Okta-SSO-MFA-Lab) | Screenshots | Single sign-on and MFA for 3 apps, plus 5 sign-in problems I reproduced and fixed. | Okta · SAML · OIDC · MFA | ![Complete](https://img.shields.io/badge/Complete-2ea44f?style=flat-square) |
-| [**Enterprise App Provisioning**](https://github.com/FernandoHuizar/Enterprise-App-Provisioning-Lab) | Screenshots | Entra ID creating and turning off ServiceNow accounts automatically, and why Salesforce couldn't work. | Entra ID · ServiceNow | ![Complete](https://img.shields.io/badge/Complete-2ea44f?style=flat-square) |
-| [**PIM & Access Reviews**](https://github.com/FernandoHuizar/PIM-Access-Reviews-Lab) | Screenshots | Admin rights only when needed, a 30-user access review that removed 8, and a separation of duties rule. | Entra ID · PIM · Access Reviews | ![Complete](https://img.shields.io/badge/Complete-2ea44f?style=flat-square) |
-| [**Hybrid Identity & AD**](https://github.com/FernandoHuizar/Hybrid-Identity-AD-Lab) | Screenshots | Active Directory synced to Entra ID, with 401 users and access given by group. | Active Directory · Entra Connect · PowerShell | ![Complete](https://img.shields.io/badge/Complete-2ea44f?style=flat-square) |
-
-### On hold
-
-| Project | Purpose | Stack | Status |
+| Project | What it shows | Stack | Status |
 |---|---|---|---|
-| **App Access at Havlund** | Salesforce and ServiceNow connected to Okta with single sign-on and automatic accounts. People ask for access in ServiceNow, their manager approves it, and managers review their team's access every quarter. | Okta · Salesforce · ServiceNow · Python | ![On hold](https://img.shields.io/badge/On_hold-888888?style=flat-square) |
-| **Privileged Access at Havlund** | Finding admin and service accounts, putting them in a vault, rotating their passwords, check-out with approval, session recording and a break-glass account. | Delinea Secret Server · Active Directory | ![On hold](https://img.shields.io/badge/On_hold-888888?style=flat-square) |
+| [**AI Agent Governance Lab**](https://github.com/FernandoHuizar/ai-agent-governance-lab) | 2 AI agents, each with its own Entra ID and a human owner. A script lists every agent and found one nobody owned. Risky actions wait for a risk officer to say yes, and I tested the off switch and a full offboarding. | Entra Agent ID · Microsoft Foundry · Logic Apps · PowerShell · Microsoft Graph | ![Complete](https://img.shields.io/badge/Complete-2ea44f?style=flat-square) |
+| **AI Audit and Compliance Lab** | An AI helper reviews the agents from the first lab and flags too much access, unused access and agents with no owner. A person makes every call, and the results become an audit report mapped to DORA, NIS2 and the EU AI Act. | Entra · Microsoft Foundry · PowerShell | ![Up next](https://img.shields.io/badge/Up_next-0969DA?style=flat-square) |
 
-> **Focus area**
->
-> My labs cover the full identity lifecycle across Okta, Active Directory and Entra ID, with HR as the source of truth. The screenshot labs are from earlier in my learning. The Havlund projects are full builds at one made-up company, with code, logs and what broke.
+<details>
+<summary><b>Earlier labs</b> (identity lifecycle, SSO, provisioning and access reviews)</summary>
+
+<br>
+
+| Project | What it shows | Stack |
+|---|---|---|
+| [**Havlund Pharma: HR-Driven Identity Lifecycle**](https://github.com/FernandoHuizar/havlund-identity-lifecycle) | HR changes flow into Okta, Active Directory and Entra ID automatically. A drift check compares all three with HR and caught all 3 problems I planted. | Okta API · Active Directory · Entra ID · Python · PowerShell |
+| [**SCIM Provisioning Server**](https://github.com/FernandoHuizar/scim-provisioning-lab) | A small server I wrote so Okta can create and turn off accounts in an app automatically. | Okta · SCIM 2.0 · Node.js |
+| [**Okta SSO & MFA**](https://github.com/FernandoHuizar/Okta-SSO-MFA-Lab) | Single sign-on and MFA for 3 apps, plus 5 sign-in problems I reproduced and fixed. | Okta · SAML · OIDC · MFA |
+| [**Enterprise App Provisioning**](https://github.com/FernandoHuizar/Enterprise-App-Provisioning-Lab) | Entra ID creating and turning off ServiceNow accounts automatically. | Entra ID · ServiceNow |
+| [**PIM & Access Reviews**](https://github.com/FernandoHuizar/PIM-Access-Reviews-Lab) | Admin rights only when needed, and a 30-user access review that removed 8. | Entra ID · PIM · Access Reviews |
+| [**Hybrid Identity & AD**](https://github.com/FernandoHuizar/Hybrid-Identity-AD-Lab) | Active Directory synced to Entra ID, with access given by group. | Active Directory · Entra Connect · PowerShell |
+
+</details>
 
 ---
 
@@ -66,6 +63,7 @@
 ![SC-300](https://img.shields.io/badge/Microsoft_Certified:_Identity_and_Access_Administrator_Associate_(SC--300)-0078D4?style=flat-square&logoColor=white)
 ![Okta Pro](https://img.shields.io/badge/Okta_Certified_Professional-007DC1?style=flat-square&logo=okta&logoColor=white)
 ![Sec+](https://img.shields.io/badge/CompTIA_Security%2B-C8202F?style=flat-square)
+![AWS CCP](https://img.shields.io/badge/AWS_Certified_Cloud_Practitioner-232F3E?style=flat-square)
 
 ---
 
