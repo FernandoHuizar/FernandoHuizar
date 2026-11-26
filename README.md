@@ -37,7 +37,7 @@
 | Project | What it shows | Stack | Status |
 |---|---|---|---|
 | [**AI Agent Governance Lab**](https://github.com/FernandoHuizar/ai-agent-governance-lab) | Copies how a bank would keep AI agents under control the same way it controls employees. Each agent gets its own identity, a human owner and only the access its job needs. Risky actions wait for a person to approve, and any agent can be shut off and retired cleanly. | Entra Agent ID · Microsoft Foundry · Logic Apps · PowerShell · Microsoft Graph | ![Complete](https://img.shields.io/badge/Complete-2ea44f?style=flat-square) |
-| **AI Audit and Compliance Lab** | An AI helper reviews the agents from the first lab and flags too much access, unused access and agents with no owner. A person makes every call, and the results become an audit report mapped to DORA, NIS2 and the EU AI Act. | Entra · Microsoft Foundry · PowerShell | ![Up next](https://img.shields.io/badge/Up_next-0969DA?style=flat-square) |
+| [**AI Audit and Compliance Lab**](https://github.com/FernandoHuizar/ai-audit-compliance-lab) | Audits the agents from the first lab the way a bank reviews access every year. An AI reviewer was tested against an answer key I wrote first, and kept out of use after it missed half the findings. The agents' owner decided every finding, and the results became an audit report mapped to DORA, NIS2 and the EU AI Act. | Entra Agent ID · Microsoft Foundry · PowerShell · Microsoft Graph | ![Complete](https://img.shields.io/badge/Complete-2ea44f?style=flat-square) |
 
 <details>
 <summary><b>Earlier labs</b> (identity lifecycle, SSO, provisioning and access reviews)</summary>
